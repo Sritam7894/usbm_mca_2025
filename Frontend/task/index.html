@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Slider</title>
+    <style>
+        #slider {
+            position: relative;
+            width: 800px;
+            height: 600px;
+            margin: auto;
+            margin: 100px;
+            overflow: hidden;
+        }
+        
+        #slider img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+        
+        #slider img.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="slider">
+        <img src="https://picsum.photos/id/237/1000/500 " class="active">
+        <img src="https://picsum.photos/id/238/1000/500">
+        <img src="https://picsum.photos/id/239/1000/500">
+        <img src="https://picsum.photos/id/240/1000/500">
+        <img src="https://picsum.photos/id/241/1000/500">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
