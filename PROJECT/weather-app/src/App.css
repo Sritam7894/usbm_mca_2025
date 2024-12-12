@@ -1,0 +1,47 @@
+ /* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.weather-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  position: center;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
